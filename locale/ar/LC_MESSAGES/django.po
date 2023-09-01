@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-28 16:01+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: .\companyinfo\models.py:5 .\products\models.py:15 .\products\models.py:46
+#: .\products\models.py:67 .\products\models.py:75 .\products\models.py:86
+msgid "Name"
+msgstr "الاسم"
+
+#: .\companyinfo\models.py:6
+msgid "Logo"
+msgstr "اللوجو"
+
+#: .\companyinfo\models.py:7 .\products\models.py:17
+msgid "Subtitle"
+msgstr "العنوان الفرعى"
+
+#: .\companyinfo\models.py:8
+msgid "Call Us"
+msgstr "هاتفنا"
+
+#: .\companyinfo\models.py:9
+msgid "Email Us"
+msgstr "أرسل لنا عبر الايميل"
+
+#: .\companyinfo\models.py:10
+msgid "Facebook Link"
+msgstr "رابط الفيسبوك"
+
+#: .\companyinfo\models.py:11
+msgid "Twitter Link"
+msgstr "رابط تويتر"
+
+#: .\companyinfo\models.py:12
+msgid "Instagram Link"
+msgstr "رابط انستجرام"
+
+#: .\companyinfo\models.py:13
+msgid "Emails"
+msgstr "الايميلات"
+
+#: .\companyinfo\models.py:14
+msgid "Numbers"
+msgstr "الهواتف"
+
+#: .\companyinfo\models.py:15
+msgid "Address"
+msgstr "العنوان"
+
+#: .\companyinfo\models.py:22 .\companyinfo\models.py:23
+msgid "Company Info"
+msgstr "معلومات الشركة"
+
+#: .\products\models.py:16
+msgid "SKU"
+msgstr "الرقم التسلسلى"
+
+#: .\products\models.py:18
+msgid "Description"
+msgstr "الوصف"
+
+#: .\products\models.py:19
+msgid "Price"
+msgstr "السعر"
+
+#: .\products\models.py:20 .\products\models.py:57 .\products\models.py:68
+#: .\products\models.py:76 .\products\models.py:87
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:393
+msgid "Image"
+msgstr "الصورة"
+
+#: .\products\models.py:21
+msgid "Quantity"
+msgstr "الكمية"
+
+#: .\products\models.py:22 .\products\models.py:49
+msgid "Flag"
+msgstr "علامة المنتج"
+
+#: .\products\models.py:24
+msgid "Brand"
+msgstr "الماركة"
+
+#: .\products\models.py:26 .\products\models.py:69 .\products\models.py:79
+msgid "Category"
+msgstr "الفئة"
+
+#: .\products\models.py:50
+msgid "Flags"
+msgstr "علامات المنتج"
+
+#: .\products\models.py:56 .\products\models.py:105
+msgid "Product"
+msgstr "المنتج"
+
+#: .\products\models.py:60
+msgid "Product Image"
+msgstr "صورة المنتج"
+
+#: .\products\models.py:61
+msgid "Product Images"
+msgstr "صور المنتج"
+
+#: .\products\models.py:80
+msgid "Categories"
+msgstr "الفئات"
+
+#: .\products\models.py:97
+msgid "Brand & Category"
+msgstr "الماركة & الفئة"
+
+#: .\products\models.py:98
+msgid "Brands & Categories"
+msgstr "الماركات & الفئات"
+
+#: .\products\models.py:104
+msgid "User"
+msgstr "المستخدم"
+
+#: .\products\models.py:106
+msgid "Rate"
+msgstr "التقييم"
+
+#: .\products\models.py:107
+msgid "Review"
+msgstr "المراجعات"
+
+#: .\products\models.py:108
+msgid "Created at"
+msgstr "تم إنتاجه فى"
+
+#: .\products\models.py:111
+msgid "Product Review"
+msgstr "مراجعات المنتج"
+
+#: .\products\models.py:112
+msgid "Product Reviews"
+msgstr "مراجعات المنتج"
