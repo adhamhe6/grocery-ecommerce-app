@@ -30,7 +30,7 @@
                     CSS LINK PART START
         =======================================-->
         <!-- FAVICON -->
-        <link rel="icon" href="{% static 'images/favicon.png' %}">
+        <link rel="icon" href="{% static 'images/icon.png' %}">
 
         <!-- FONTS -->
         <link rel="stylesheet" href="{% static 'fonts/flaticon/flaticon.css' %}">
@@ -94,11 +94,11 @@
                 <div class="header-content">
                     <div class="header-media-group">
                         <button class="header-user"><img src="{% static 'images/user.png' %}" alt="user"></button>
-                        <a href="{% url 'index' %}"><img src="{{ company_info.logo.url }}" alt="logo"></a>
+                        <a href="{% url 'pages:index' %}"><img src="{{ company_info.logo.url }}" alt="logo"></a>
                         <button class="header-src"><i class="fas fa-search"></i></button>
                     </div>
 
-                    <a href="{% url 'index' %}" class="header-logo">
+                    <a href="{% url 'pages:index' %}" class="header-logo">
                         <img src="{{ company_info.logo.url }}" alt="logo">
                     </a>
                     <a href="login.html" class="header-widget" title="My Account">
@@ -146,11 +146,11 @@
                                 <li class="navbar-item dropdown">
                                     <a class="navbar-link dropdown-arrow" href="#">home</a>
                                     <ul class="dropdown-position-list">
-                                        <li><a href="{% url 'home_grid' %}">Home grid</a></li>
-                                        <li><a href="{% url 'home_index' %}">Home index</a></li>
-                                        <li><a href="{% url 'home_classic' %}">Home classic</a></li>
-                                        <li><a href="{% url 'home_standard' %}">Home standard</a></li>
-                                        <li><a href="{% url 'home_category' %}">Home category</a></li>
+                                        <li><a href="{% url 'pages:home_grid' %}">Home grid</a></li>
+                                        <li><a href="{% url 'pages:home_index' %}">Home index</a></li>
+                                        <li><a href="{% url 'pages:home_classic' %}">Home classic</a></li>
+                                        <li><a href="{% url 'pages:home_standard' %}">Home standard</a></li>
+                                        <li><a href="{% url 'pages:home_category' %}">Home category</a></li>
                                     </ul>
                                 </li>
                                 <li class="navbar-item dropdown">
@@ -510,7 +510,7 @@
         =======================================-->
 
 
-        {% include 'cart/cart.html' %}
+        {% include 'pages/cart.html' %}
 
 
         <!--=====================================
@@ -881,7 +881,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-xl-3">
                         <div class="footer-widget">
-                            <a class="footer-logo" href="#">
+                            <a class="footer-logo" href="{% url 'pages:index' %}">
                                 <img src="{{ company_info.logo.url }}" alt="logo">
                             </a>
                             <p class="footer-desc">At Greeny Company, we're passionate about bringing you the freshest, highest quality groceries at the best possible prices. We believe that everyone should have access to healthy, delicious food.</p>

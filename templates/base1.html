@@ -30,7 +30,7 @@
                     CSS LINK PART START
         =======================================-->
         <!-- FAVICON -->
-        <link rel="icon" href="{% static 'images/favicon.png' %}">
+        <link rel="icon" href="{% static 'images/icon.png' %}">
 
         <!-- FONTS -->
         <link rel="stylesheet" href="{% static 'fonts/flaticon/flaticon.css' %}">
@@ -512,7 +512,7 @@
         =======================================-->
 
 
-        {% include 'cart/cart.html' %}
+        {% include 'pages/cart.html' %}
 
 
         <!--=====================================
@@ -520,7 +520,7 @@
         =======================================-->
         <aside class="nav-sidebar">
             <div class="nav-header">
-                <a href="#"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
+                <a href="{% url 'pages:index' %}"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
                 <button class="nav-close"><i class="icofont-close"></i></button>
             </div>
             <div class="nav-content">
