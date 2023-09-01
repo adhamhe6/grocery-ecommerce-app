@@ -148,7 +148,7 @@ msgstr "تم إنتاجه فى"
 
 #: .\products\models.py:111
 msgid "Product Review"
-msgstr "مراجعات المنتج"
+msgstr "مراجعة المنتج"
 
 #: .\products\models.py:112
 msgid "Product Reviews"
