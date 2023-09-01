@@ -37,7 +37,15 @@ class BrandAdmin(admin.ModelAdmin):
     list_display = ['name', 'image_preview']
  
 class CategorySuggestAdmin(admin.ModelAdmin):
-    list_display = ['name', 'image']
+    def image_preview(self, obj):
+        if obj.image:
+            return format_html('<div style="width: 35px; height: 25px; border-radius: 50%; overflow: hidden;"><img src="{}" width="100%" height="100%"/></div>', obj.image.url)
+        else:
+            return '-'
+
+    image_preview.short_description = 'Image Preview'
+    image_preview.allow_tags = True
+    list_display = ['name', 'image_preview']
 
 class CategoryAdmin(admin.ModelAdmin):
     def image_preview(self, obj):
