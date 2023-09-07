@@ -8,6 +8,7 @@ urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')),
     path('', include(('pages.urls', 'pages'), namespace='pages')),
     path('products/', include(('products.urls', 'products'), namespace='products')),
+    path('accounts/', include(('accounts.urls', 'accounts'), namespace='accounts')),
 ]
 
 if settings.DEBUG:
